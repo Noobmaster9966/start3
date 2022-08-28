@@ -63,7 +63,7 @@ function App() {
           <Route exact path="/about" element={<About heading="About-Us" togglemode={toggleMode} mode={mode}/>}>
             {/* always use "exact path" instead of "path"because if we have webpage on link /home/about - component 1 and /home has component 2 then if we write /home/about then the component of /home will also show which we dont want */}
           </Route>
-          <Route exact path="/" element={<FormText heading = "Welcome to Text Area" mode={mode} showalert={showalert}/>}>
+          <Route exact path="/start3" element={<FormText heading = "Welcome to Text Area" mode={mode} showalert={showalert}/>}>
           </Route>
         </Routes>
 </Router>
